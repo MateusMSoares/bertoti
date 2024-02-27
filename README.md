@@ -16,7 +16,7 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 
 - **Site da Amazon**: Optou pela fluidez em vez de um front-end mais elaborado com animações modernas. Essa escolha permite que a Amazon lide com um grande número de conexões simultâneas, mantendo o site estável para usuários de dispositivos mais "fracos".
 
-- **Python**: Prioriou a facilidade ao desempenho, o que foi uma escolha chave, na qual tornou python uma das linguagens mais usadas, não só para desenvolvimento de software para IA, mas para criar algoritmos que conseguem lidar e apresentar ideias sobre muito dados, sendo uma ferramenta muito utilizada nas áreas de estatística.
+- **Python**: Prioriou a facilidade ao desempenho, o que foi uma escolha chave, na qual tornou python uma das linguagens mais usadas, não só para desenvolvimento de software para IA, mas para criar algoritmos que conseguem lidar e apresentar ideias sobre muitos dados, sendo uma ferramenta muito utilizada nas áreas de estatística.
 
 
 https://abseil.io/resources/swe-book
