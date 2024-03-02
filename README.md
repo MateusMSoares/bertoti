@@ -12,11 +12,48 @@
 
 O trade-off envolve avaliar o que será mais importante e o que pode ser aceito como uma "perda". Alguns exemplos são:
 
-- **Java**: Priorizou a portabilidade em detrimento do desempenho otimizado. Isso significa que uma aplicação Java pode rodar em qualquer equipamento que tenha a JDK instalada, como cafeteiras, celulares, servidores, entre outros, mas acaba tendo menor controle sobre o hardware comparado a linguagens como C++ e C. Essas linguagens com maior controle de hardware acabam sendo mais usadas em aplicações que tem como prioridade controle e segurança, como aviões, carros e foguetes.
+**- Java:** Priorizou a portabilidade em detrimento do desempenho otimizado. Isso significa que uma aplicação Java pode rodar em qualquer equipamento que tenha a JDK instalada, como cafeteiras, celulares, servidores, entre outros, mas acaba tendo menor controle sobre o hardware comparado a linguagens como C++ e C. Essas linguagens com maior controle de hardware acabam sendo mais usadas em aplicações que tem como prioridade controle e segurança, como aviões, carros e foguetes.
 
-- **Site da Amazon**: Optou pela fluidez em vez de um front-end mais elaborado com animações modernas. Essa escolha permite que a Amazon lide com um grande número de conexões simultâneas, mantendo o site estável para usuários de dispositivos mais "fracos".
+**- Site da Amazon:** Optou pela fluidez em vez de um front-end mais elaborado com animações modernas. Essa escolha permite que a Amazon lide com um grande número de conexões simultâneas, mantendo o site estável para usuários de dispositivos mais "fracos".
 
-- **Python**: Prioriou a facilidade ao desempenho, o que foi uma escolha chave, na qual tornou python uma das linguagens mais usadas, não só para desenvolvimento de software para IA, mas para criar algoritmos que conseguem lidar e apresentar ideias sobre muitos dados, sendo uma ferramenta muito utilizada nas áreas de estatística.
+**- Python**:** Prioriou a facilidade ao desempenho, o que foi uma escolha chave, na qual tornou python uma das linguagens mais usadas, não só para desenvolvimento de software para IA, mas para criar algoritmos que conseguem lidar e apresentar ideias sobre muitos dados, sendo uma ferramenta muito utilizada nas áreas de estatística.
 
+### Comentando Trade-off de arquiteturas:
+**Layered Architecture Style(Arquitetura em camadas):**
+- Pontos positivo: Alta simplicidade, barato e confiável.
+- Pontos negativos: Dificil de escalar(maior número clientes), menos tolerância a erros devido ao alto acoplamento, visto que uma camada só pode conversar com a camada acima e abaixo.
+- Uso: Usado em protocolos de rede como UDP, TCP e HTTP, devido a segurança no processo, onde se houver falha em um ponto, a informação deve ser invalidada.
 
+**Pipeline Architecture Style(Arquitetura em pipeline):**
+- Pontos positivo: Modularidade, simplicidade, barato, relativamente fácil de testar e confiável.
+- Pontos negativos: Dificil de escalar(maior número clientes), menos tolerância a erros devido ao alto acoplamento, visto que uma camada só pode conversar com a camada acima e abaixo.
+- Uso: Compiladores, processamento de gráficos, linguagem natural e de vídeo, devido a necessidade de vários filtros de processamento até o produto final.
+  
+  
+**Microkernel Architecture Style(Arquitetura em camadas):**
+- Pontos positivo: Modularidade, custo, segurança, simplicidade e testabilidade.
+- Pontos negativos: Complexidade, tolerância a erros. 
+- Uso: Sistema Operacionais e embarcados, devido o gerenciamento de memória e a comunicação entre os processos principais e secundários.
+
+**Service-based Architecture Style(Arquitetura baseada em serviços):**
+- Pontos positivo: Implementação, escabilidade, tolerância a falhas, custo, confiabilidade, realização de testes e modularidade
+- Pontos negativos: Complexidade de integração de serviçõs em diferentes plataformas.
+- Uso: Comercios eletrônicos, flexíbilidade, confiavel e fácil de dar manutenção.
+
+**Event-driven Architecture Style(Arquitetura baseada em eventos):**
+- Pontos positivo: Evolução de novas funcionalidades, tolerância a falhas, performace e escalabidade.
+- Pontos negativos: Complexidade e testabilidade.
+- Uso: Internet das coisas, sistema de sensores, na qual após o disparo do sinal (trigger) uma lógica é feita com a entrada, para gerar uma saída, como a velocidade ou um sinal elétrico.
+
+- **Event-driven Architecture Style(Arquitetura baseada em eventos):**
+- Pontos positivo: Evolução de novas funcionalidades, tolerância a falhas, performace e escalabidade.
+- Pontos negativos: Complexidade e testabilidade.
+- Uso: Usado em sistemas de jogos online, devido a necessidade de atualizar o status para todos os jogadores. Também usado em internet das coisas, sistema de sensores, na qual após o disparo do sinal (trigger) uma lógica é feita com a entrada, para gerar uma saída, como a velocidade ou um sinal elétrico.
+
+**Microservices Architecture (Arquitetura de microsserviços):**
+- Pontos positivo:  Implementação, implementação de novas funcionalidades, modularidade e escalabilidade de novos clientes.
+- Pontos negativos: Custo alto e complexo
+- Uso: Amazon prime, devido a necessidade de estar constantemente alterando funcionalidades, para um grande número de clientes.
+
+- 
 https://abseil.io/resources/swe-book
