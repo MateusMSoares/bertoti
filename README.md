@@ -1,7 +1,6 @@
-# Professor Bertoti
+# Professor Bertoti - Engenharia de Software na Fatec
 
 # Atividade 1
-## Engenharia de Software na Fatec
 
 ### Comentando trechos do livro "Software engineering at Google"
 livro: https://abseil.io/resources/swe-book
