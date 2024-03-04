@@ -1,12 +1,18 @@
 # Professor Bertoti
+
+# Atividade 1
 ## Engenharia de Software na Fatec
 
 ### Comentando trechos do livro "Software engineering at Google"
+livro: https://abseil.io/resources/swe-book
+
 >"Withain Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software : engineering after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomesnsion to programming. Cubes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, mmimaintenance). The addition of time adds an important new dimeension to programming."
 
 >"We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth."
 
 - Programar é uma parte importante do software, mas a engenharia traz uma reflexão importante sobre como será a vida útil desse software ao decorrer do tempo, envolvendo modificações, manutenção e escalabilidade. É imprescindível que a engenharia e o programar andem juntos, afim de atingir a maior qualidade de produto agora e no futuro visando as prioridades do produto. 
+
+# Atividade 2
 
 ### Conceito de Trade-off (Troca):
 
@@ -17,6 +23,8 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 **- Site da Amazon:** Optou pela fluidez em vez de um front-end mais elaborado com animações modernas. Essa escolha permite que a Amazon lide com um grande número de conexões simultâneas, mantendo o site estável para usuários de dispositivos mais "fracos".
 
 **- Python**:** Prioriou a facilidade ao desempenho, o que foi uma escolha chave, na qual tornou python uma das linguagens mais usadas, não só para desenvolvimento de software para IA, mas para criar algoritmos que conseguem lidar e apresentar ideias sobre muitos dados, sendo uma ferramenta muito utilizada nas áreas de estatística.
+
+# Atividade 3
 
 ### Comentando Trade-off de arquiteturas:
 **Layered Architecture Style(Arquitetura em camadas):**
@@ -45,7 +53,7 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 - Pontos negativos: Complexidade e testabilidade.
 - Uso: Internet das coisas, sistema de sensores, na qual após o disparo do sinal (trigger) uma lógica é feita com a entrada, para gerar uma saída, como a velocidade ou um sinal elétrico.
 
-- **Event-driven Architecture Style(Arquitetura baseada em eventos):**
+**Event-driven Architecture Style(Arquitetura baseada em eventos):**
 - Pontos positivo: Evolução de novas funcionalidades, tolerância a falhas, performace e escalabidade.
 - Pontos negativos: Complexidade e testabilidade.
 - Uso: Usado em sistemas de jogos online, devido a necessidade de atualizar o status para todos os jogadores. Também usado em internet das coisas, sistema de sensores, na qual após o disparo do sinal (trigger) uma lógica é feita com a entrada, para gerar uma saída, como a velocidade ou um sinal elétrico.
@@ -54,6 +62,3 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 - Pontos positivo:  Implementação, implementação de novas funcionalidades, modularidade e escalabilidade de novos clientes.
 - Pontos negativos: Custo alto e complexo
 - Uso: Amazon prime, devido a necessidade de estar constantemente alterando funcionalidades, para um grande número de clientes.
-
-- 
-https://abseil.io/resources/swe-book
