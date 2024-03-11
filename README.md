@@ -71,12 +71,12 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 - View: É a camada de apresentação. Ela exibe as informações ao usuário e recebe entradas do usuário.
 - Controller: Faz a mediação entre a View e o Model. Ele recebe entradas do usuário da View, processa essas entradas com a lógica de negócios do Model e atualiza a View de acordo.
 
-Trade-offs com requisitos não funcionais:
+**Trade-offs com requisitos não funcionais:**
 
-Desempenho: A separação de responsabilidades no MVC pode levar a uma maior complexidade e, potencialmente, a um desempenho mais lento devido ao processamento adicional para coordenar entre as camadas.
-Escalabilidade: A estrutura MVC pode ser facilmente escalável, pois permite a separação de responsabilidades, facilitando a manutenção e o desenvolvimento paralelo.
-Manutenibilidade: A separação clara de responsabilidades entre as camadas facilita a manutenção, já que as alterações em uma parte do sistema geralmente têm menos impacto nas outras partes.
-Segurança: A separação de camadas permite implementar medidas de segurança em diferentes níveis. Por exemplo, a validação de entrada pode ser feita no Controller, enquanto a autenticação e autorização podem ser tratadas em outras camadas.
+- Desempenho: A separação de responsabilidades no MVC pode levar a uma maior complexidade e, potencialmente, a um desempenho mais lento devido ao processamento adicional para coordenar entre as camadas.
+- Escalabilidade: A estrutura MVC pode ser facilmente escalável, pois permite a separação de responsabilidades, facilitando a manutenção e o desenvolvimento paralelo.
+- Manutenibilidade: A separação clara de responsabilidades entre as camadas facilita a manutenção, já que as alterações em uma parte do sistema geralmente têm menos impacto nas outras partes.
+- Segurança: A separação de camadas permite implementar medidas de segurança em diferentes níveis. Por exemplo, a validação de entrada pode ser feita no Controller, enquanto a autenticação e autorização podem ser tratadas em outras camadas.
 
 # Atividade 5
 **Diagrama de classes de uma das partes da arquitetura:**
