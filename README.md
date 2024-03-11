@@ -67,9 +67,9 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 ### Defina sua arquitetura debatendo tradeoffs com os requisitos não funcionais comentados em aula:
 **Model-View-Controller (MVC):**
 
-Model: Representa os dados e a lógica de negócios. Ele é responsável por lidar com a manipulação e validação dos dados.
-View: É a camada de apresentação. Ela exibe as informações ao usuário e recebe entradas do usuário.
-Controller: Faz a mediação entre a View e o Model. Ele recebe entradas do usuário da View, processa essas entradas com a lógica de negócios do Model e atualiza a View de acordo.
+- Model: Representa os dados e a lógica de negócios. Ele é responsável por lidar com a manipulação e validação dos dados.
+- View: É a camada de apresentação. Ela exibe as informações ao usuário e recebe entradas do usuário.
+- Controller: Faz a mediação entre a View e o Model. Ele recebe entradas do usuário da View, processa essas entradas com a lógica de negócios do Model e atualiza a View de acordo.
 
 Trade-offs com requisitos não funcionais:
 
@@ -79,7 +79,7 @@ Manutenibilidade: A separação clara de responsabilidades entre as camadas faci
 Segurança: A separação de camadas permite implementar medidas de segurança em diferentes níveis. Por exemplo, a validação de entrada pode ser feita no Controller, enquanto a autenticação e autorização podem ser tratadas em outras camadas.
 
 # Atividade 5
-**Diagrama de classes de uma das partes da arquitetura**
+**Diagrama de classes de uma das partes da arquitetura:**
 ![image](https://github.com/MateusMSoares/bertoti/assets/74261014/2615b781-915d-4ca6-9f34-51239bf2fa50)
 
 
