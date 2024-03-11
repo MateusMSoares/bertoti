@@ -80,6 +80,7 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 
 # Atividade 5
 **Diagrama de classes de uma das partes da arquitetura:**
-![image](https://github.com/MateusMSoares/bertoti/assets/74261014/2615b781-915d-4ca6-9f34-51239bf2fa50)
+![image](https://github.com/MateusMSoares/bertoti/assets/74261014/74fe9919-ec68-436a-adaf-b14156e96298)
+
 
 
