@@ -30,4 +30,16 @@ public class concessionaria {
             }
             return carrosPorEspecificao;
         }
+
+        public List<Carro> buscarCarroPorModelo(String modelo) {
+            List<Carro> carrosPorMarca = new LinkedList<Carro>();
+            for (Carro carro : carros) {
+                if (carro.getModelo().equals(modelo)) {
+                    carrosPorMarca.add(carro);
+                }
+            }
+            return carrosPorMarca;
+        }
+
+
 }

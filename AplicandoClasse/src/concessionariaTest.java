@@ -16,7 +16,10 @@ public class concessionariaTest {
         concessionaria.cadastrarCarro(toyota);
         List<Carro> carrosPorMarca = concessionaria.buscarCarrosPorMarca("Honda");
         List<Carro> carrosPorEspecificao = concessionaria.buscarCarrosPorEspecificao(new Especificao(true, true, true));
+        List<Carro> carrosPorModelo = concessionaria.buscarCarroPorModelo("Civic");
         assertEquals(2, carrosPorMarca.size());
         assertEquals(2, carrosPorEspecificao.size());
+        assertEquals(2, carrosPorModelo.size());
+
     }
 }
