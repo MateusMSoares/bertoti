@@ -9,7 +9,7 @@ livro: https://abseil.io/resources/swe-book
 
 >"We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth."
 
-- Programar é uma parte importante do software, mas a engenharia traz uma reflexão importante sobre como será a vida útil desse software ao decorrer do tempo, envolvendo modificações, manutenção e escalabilidade. É imprescindível que a engenharia e o programar andem juntos, afim de atingir a maior qualidade de produto agora e no futuro visando as prioridades do produto. 
+- Em desenvolvimento de software é crucial entender as ferramentas como linguagem de programação e SGBDS, entender como elas funcionam e saber otimizar o processo em pequena e grandes escalas, entender a complexidade do algoritmo criado afim de manter uma vida útil ao longo do tempo.
 
 # Atividade 2
 
