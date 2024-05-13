@@ -43,8 +43,8 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 - Uso: Sistema Operacionais e embarcados, devido o gerenciamento de memória e a comunicação entre os processos principais e secundários.
 
 **Service-based Architecture Style(Arquitetura baseada em serviços):**
-- Pontos positivo: Implementação, escabilidade, tolerância a falhas, custo, confiabilidade, realização de testes e modularidade
-- Pontos negativos: Complexidade de integração de serviçõs em diferentes plataformas.
+- Pontos positivo: Reutilização da solução criada e flexibilidade para mudanças.
+- Pontos negativos: Complexidade na implementação, garantindo uma integração plena, a performance da arquitetura orientada a serviços depende do servidor em que os módulos se   encontram hospedados. Esse fator, em conjunto com a disponibilidade da rede, pode causar lentidão e falhas na performance dos softwares instalados.
 - Uso: Comercios eletrônicos, flexíbilidade, confiavel e fácil de dar manutenção.
 
 **Event-driven Architecture Style(Arquitetura baseada em eventos):**
