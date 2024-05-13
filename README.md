@@ -9,7 +9,7 @@ livro: https://abseil.io/resources/swe-book
 
 >"We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth."
 
-- Em desenvolvimento de software é crucial entender as ferramentas como linguagem de programação e SGBDS, entender como elas funcionam e saber otimizar o processo em pequena e grandes escalas, entender a complexidade do algoritmo criado afim de manter uma vida útil ao longo do tempo.
+- Em desenvolvimento de software é crucial pensar de forma engenhosa, aplicações evoluem com o tempo, a demanda de novos acessos e a escabilidade de funções podem evoluir de forma exponencial, existem casos em que o sistema pode ser embarcado e de dificil acesso para manutenção, adicionando a complexidade de tempo, seja de um novo responsável no projeto ou mudanças que impactam o funcionando, prova que a engenharia e a sua documentação clara, tanto técnica quanto de tomadas de decições, é fundamental para mander a vida útil e manutenibilidade ao longo dos anos de vida de um software.
 
 # Atividade 2
 
@@ -50,16 +50,11 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 **Event-driven Architecture Style(Arquitetura baseada em eventos):**
 - Pontos positivo: Evolução de novas funcionalidades, tolerância a falhas, performace e escalabidade.
 - Pontos negativos: Complexidade e testabilidade.
-- Uso: Internet das coisas, sistema de sensores, na qual após o disparo do sinal (trigger) uma lógica é feita com a entrada, para gerar uma saída, como a velocidade ou um sinal elétrico.
-
-**Event-driven Architecture Style(Arquitetura baseada em eventos):**
-- Pontos positivo: Evolução de novas funcionalidades, tolerância a falhas, performace e escalabidade.
-- Pontos negativos: Complexidade e testabilidade.
 - Uso: Usado em sistemas de jogos online, devido a necessidade de atualizar o status para todos os jogadores. Também usado em internet das coisas, sistema de sensores, na qual após o disparo do sinal (trigger) uma lógica é feita com a entrada, para gerar uma saída, como a velocidade ou um sinal elétrico.
 
 **Microservices Architecture (Arquitetura de microsserviços):**
-- Pontos positivo:  Implementação, implementação de novas funcionalidades, modularidade e escalabilidade de novos clientes.
-- Pontos negativos: Custo alto e complexo
+- Pontos positivo: Escabilidade, flexibilidade para lidar com sistemas mais complexos e padrões de designe e implementação bem definidos.
+- Pontos negativos: Complexidade de manutenção, por conta da sua natureza, um sistema baseado em micro serviços acaba tendo certa limitação em relação ao que cada serviço tem e devolve de informação, podendo ser de alta complexidade, adicionar uma nova funcionalidade. 
 - Uso: Amazon prime, devido a necessidade de estar constantemente alterando funcionalidades, para um grande número de clientes.
 
 # Atividade 4
