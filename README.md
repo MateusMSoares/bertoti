@@ -83,5 +83,7 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 # Atividade 6 e 7
 - Código e testes para o diagrama de classe criado acima na pasta "aplicandoClasse".
 
-
+# Atividade 8
+**UML**
+![MLAtividade8](https://github.com/MateusMSoares/bertoti/assets/74261014/7e6c2916-bc11-4b32-b0dd-ab777e07c4db)
 
