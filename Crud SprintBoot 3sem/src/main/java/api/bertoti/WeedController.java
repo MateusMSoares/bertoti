@@ -43,6 +43,19 @@ public class WeedController {
         weeds.removeIf(w -> w.getId() == id);
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<Weed> alteraWeed(@PathVariable int id, @RequestBody Weed updatedWeed) {
+        for (Weed w : weeds) {
+            if (w.getId() == id) {
+                w.setNome(updatedWeed.getNome());
+                w.setValor(updatedWeed.getValor());
+                w.setThc(updatedWeed.getThc());
+                return new ResponseEntity<>(w, HttpStatus.OK);
+            }
+        }
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+
 }
 
 
