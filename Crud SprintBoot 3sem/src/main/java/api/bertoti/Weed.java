@@ -2,22 +2,24 @@ package api.bertoti;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public class Weed {
     private static int idCounter = 0;
     private int id;
-    private double valor;
-    private String nome;
+    private double price;
+    private String name;
     private double thc;
 
     // Construtor
-    public Weed(double valor, String nome, double thc) {
+    public Weed(String name, double thc, double price) {
         this.id = ++idCounter; 
-        this.valor = valor;
-        this.nome = nome;
+        this.name = name;
         this.thc = thc;
+        this.price = price;
     }
 }
 
