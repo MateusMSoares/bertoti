@@ -1,6 +1,6 @@
 import React, {  useState, useRef} from 'react';
 import styles from './NavBar.module.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/weestore.jpeg';
 
 const NavBar = () => {
 
@@ -15,7 +15,6 @@ const NavBar = () => {
         <div className={styles.container}>
             <div className={styles.divTitle}>
                 <img src={logo} className={styles.logo}/>
-                <h1 className={styles.h1}>Agro Pesca Jacaré</h1>
             </div>
             <nav className={styles.nav}>
                 <button className={styles.button} onClick={() => scrollToSection('Cadastrar')}>Cadastrar produto</button>

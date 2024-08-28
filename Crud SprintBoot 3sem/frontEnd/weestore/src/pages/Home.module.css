@@ -8,8 +8,8 @@
 
 .subContainer {
     padding: 16px 0px 0px;
-    background-image: url('../assets/landing-texture.png');
-    background-repeat: repeat;
+    background-image: url('../assets/fundo.avif');
+    /* background-repeat: repeat; */
     background-size: 150px;
     position: relative;
     min-height: 100vh;

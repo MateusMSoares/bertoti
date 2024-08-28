@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  java-app:
+    build: ./backend
+    container_name: java-container
+    ports:
+      - "8080:8080"
+    networks:
+      - mynetwork
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bertoti
+      MYSQL_PASSWORD: root
+    volumes:
+      - mysql-data:/var/lib/mysql
+    ports:
+      - "3309:3306"
+    networks:
+      - mynetwork
+
+  node-app:
+    build: ./frontend/weestore
+    container_name: node-container
+    ports:
+      - "3000:3000"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+
+volumes:
+  mysql-data:
