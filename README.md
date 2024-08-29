@@ -1,5 +1,17 @@
 # Professor Bertoti - Engenharia de Software na Fatec
 
+<details>
+<summary><strong>Atividades sobre engenharias de software, trade-offs e diagramas de caso de uso</strong></summary>
+
+## Sumário
+1. [Atividade 1: Comentando trechos do livro "Software Engineering at Google"](#atividade-1)
+2. [Atividade 2: Conceito de Trade-off](#atividade-2)
+3. [Atividade 3: Comentando Trade-offs de Arquiteturas](#atividade-3)
+4. [Atividade 4: Definição de Arquitetura e Trade-offs](#atividade-4)
+5. [Atividade 5: Diagrama de Classes](#atividade-5)
+6. [Atividades 6 e 7: Código e Testes](#atividade-6-e-7)
+7. [Atividade 8: UML](#atividade-8)
+
 # Atividade 1
 
 ### Comentando trechos do livro "Software engineering at Google"
@@ -86,4 +98,10 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 # Atividade 8
 **UML**
 ![MLAtividade8](https://github.com/MateusMSoares/bertoti/assets/74261014/7e6c2916-bc11-4b32-b0dd-ab777e07c4db)
+
+</details>
+
+<details>
+<summary><strong>Projeto SpringBoot de aluguel compartilhável de casas e apartamentos</strong></summary>
+
 
