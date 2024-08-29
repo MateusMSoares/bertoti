@@ -8,6 +8,8 @@ services:
       - "8080:8080"
     networks:
       - mynetwork
+    depends_on:
+      - mysql
 
   mysql:
     image: mysql:8.0
@@ -24,12 +26,15 @@ services:
       - mynetwork
 
   node-app:
-    build: ./frontend/weestore
+    build: ./frontend
     container_name: node-container
     ports:
       - "3000:3000"
     networks:
       - mynetwork
+    depends_on:
+      - java-app
+      - mysql
 
 networks:
   mynetwork:
