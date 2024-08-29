@@ -1,5 +1,6 @@
-# Professor Bertoti - Engenharia de Software na Fatec
+# Aulas ministradas pelo Professor Bertoti
 
+## 2 Semestre:
 <details>
 <summary><strong>Atividades sobre engenharias de software, trade-offs e diagramas de caso de uso</strong></summary>
 
@@ -100,6 +101,8 @@ O trade-off envolve avaliar o que será mais importante e o que pode ser aceito 
 ![MLAtividade8](https://github.com/MateusMSoares/bertoti/assets/74261014/7e6c2916-bc11-4b32-b0dd-ab777e07c4db)
 
 </details>
+
+## 3 Semestre:
 
 <details>
 <summary><strong>Projeto SpringBoot de aluguel compartilhável de casas e apartamentos</strong></summary>
